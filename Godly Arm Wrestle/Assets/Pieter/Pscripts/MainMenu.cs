@@ -10,6 +10,10 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Arm Wrestling");
     }
 
+  
+
+   
+
     public void QuitGame()
     {
         Application.Quit();

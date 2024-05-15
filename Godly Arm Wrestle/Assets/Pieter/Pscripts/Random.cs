@@ -6,6 +6,7 @@ public class RandomButtonTeleport : MonoBehaviour
 {
     public float teleportRadius = 5f;
     public float teleportDelay = 1f; // Delay in seconds before auto teleport
+    public GameObject panel;
 
     private Button teleportButton;
 
@@ -20,12 +21,15 @@ public class RandomButtonTeleport : MonoBehaviour
 
     void TeleportButton()
     {
-        // Calculate a random position within the teleport radius
-        Vector3 randomPosition = GetRandomPosition();
+        if (!panel.activeSelf)
+        {
+            // Calculate a random position within the teleport radius
+            Vector3 randomPosition = GetRandomPosition();
 
-        // Teleport the button to the random position
-        RectTransform buttonRectTransform = teleportButton.GetComponent<RectTransform>();
-        buttonRectTransform.anchoredPosition = randomPosition;
+            // Teleport the button to the random position
+            RectTransform buttonRectTransform = teleportButton.GetComponent<RectTransform>();
+            buttonRectTransform.anchoredPosition = randomPosition;
+        }
     }
 
     Vector3 GetRandomPosition()
