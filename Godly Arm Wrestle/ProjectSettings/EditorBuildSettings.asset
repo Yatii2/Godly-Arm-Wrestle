@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Yati/Arm Wrestling.unity
+    path: Assets/Yati/Arm Wrestling Yati.unity
     guid: 59db67de56f259c449f79b613ef07dc4
   m_configObjects: {}
