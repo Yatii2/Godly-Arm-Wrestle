@@ -775,7 +775,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   counterText: {fileID: 78536430}
   upgradeText: {fileID: 2003310875}
-  upgradeButton1: {fileID: 0}
+  upgradeButton1: {fileID: 1500850975}
 --- !u!1 &510097689
 GameObject:
   m_ObjectHideFlags: 0
