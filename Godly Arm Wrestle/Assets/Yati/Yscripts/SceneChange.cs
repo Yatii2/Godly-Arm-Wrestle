@@ -9,4 +9,14 @@ public class SceneChange : MonoBehaviour
     {
         SceneManager.LoadScene("Main Menu");
     }
+
+    public void Fight()
+    {
+        SceneManager.LoadScene("FightTest");
+    }
+
+    public void Train()
+    {
+        SceneManager.LoadScene("Arm Wrestling");
+    }
 }
