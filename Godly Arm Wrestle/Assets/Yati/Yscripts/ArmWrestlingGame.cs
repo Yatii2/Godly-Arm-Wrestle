@@ -29,10 +29,7 @@ public class ArmWrestlingGame : MonoBehaviour
         if (gameActive)
         {
             timer -= Time.deltaTime;
-            if (timer <= 0)
-            {
-                EndGame("draw");
-            }
+            
 
             UpdateBotStrength();
             UpdateArmPosition();
