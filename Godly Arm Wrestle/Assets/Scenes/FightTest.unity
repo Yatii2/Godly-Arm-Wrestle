@@ -224,7 +224,7 @@ RectTransform:
   m_GameObject: {fileID: 62563111}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2727, y: 1.18, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1552772373}
@@ -234,7 +234,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18, y: -348}
+  m_AnchoredPosition: {x: -18, y: -448}
   m_SizeDelta: {x: 553.0161, y: 90.0216}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &62563113
@@ -425,7 +425,7 @@ MonoBehaviour:
   armPositionSlider: {fileID: 62563113}
   clickButton: {fileID: 773514824}
   playerStrength: 0.1
-  botStrength: 0.05
+  botStrength: 0.1
   matchTime: 10
   winImage: {fileID: 871431261}
   loseImage: {fileID: 42077431}

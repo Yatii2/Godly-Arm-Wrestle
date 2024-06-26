@@ -776,6 +776,7 @@ MonoBehaviour:
   counterText: {fileID: 78536430}
   upgradeText: {fileID: 2003310875}
   upgradeButton1: {fileID: 1500850975}
+  fight: {fileID: 0}
 --- !u!1 &510097689
 GameObject:
   m_ObjectHideFlags: 0

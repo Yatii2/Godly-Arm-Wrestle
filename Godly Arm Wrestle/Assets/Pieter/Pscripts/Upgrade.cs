@@ -13,6 +13,7 @@ public class Upgrade : MonoBehaviour
     public Text counterText; // TMP Text element to display the counter
     public Text upgradeText; // TMP Text element to display the upgrade cost
     public Button upgradeButton1; // Button to purchase upgrades
+    public Button fight;
 
 
     private int clickCount = 0; // Counter variable
@@ -71,6 +72,8 @@ public class Upgrade : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+       
         
     }
 }
