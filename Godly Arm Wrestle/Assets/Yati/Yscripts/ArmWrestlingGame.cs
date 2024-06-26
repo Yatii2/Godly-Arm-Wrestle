@@ -10,6 +10,9 @@ public class ArmWrestlingGame : MonoBehaviour
     public float matchTime = 10f;
     public GameObject winImage;
     public GameObject loseImage;
+    public GameObject Arm;
+    public GameObject WinArm;
+    public GameObject LoseArm;
 
     private float timer;
     private bool gameActive;
@@ -74,14 +77,15 @@ public class ArmWrestlingGame : MonoBehaviour
         if (result == "win")
         {
             winImage.SetActive(true);
+            GameObject.Destroy(Arm);
+            WinArm.SetActive(true);
         }
         else if (result == "lose")
         {
             loseImage.SetActive(true);
+            GameObject.Destroy (Arm);
+            LoseArm.SetActive(true);
         }
-        else
-        {
-            Debug.Log("Time's up! It's a draw!");
-        }
+       
     }
 }

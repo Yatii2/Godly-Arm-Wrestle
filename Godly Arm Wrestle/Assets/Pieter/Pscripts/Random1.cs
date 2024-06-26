@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using Unity.VisualScripting;
 
 public class Random1 : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class Random1 : MonoBehaviour
     public float teleportDelay = 1f;
     [SerializeField] GameObject Button;
     private Button teleportButton;
+    [SerializeField] GameObject WinImage;
+    [SerializeField] GameObject LoseImage;
 
     void Start()
     {
@@ -20,7 +23,7 @@ public class Random1 : MonoBehaviour
 
     void TeleportButton()
     {
-     
+        if (!WinImage.activeSelf)
         {
             // Calculate a random position within the teleport radius
             Vector3 randomPosition = GetRandomPosition();
@@ -29,9 +32,12 @@ public class Random1 : MonoBehaviour
             RectTransform buttonRectTransform = teleportButton.GetComponent<RectTransform>();
             buttonRectTransform.anchoredPosition = randomPosition;
         }
+
     }
 
-    Vector3 GetRandomPosition()
+    
+
+Vector3 GetRandomPosition()
     {
         // Calculate a random position within the teleport radius
         float randomX = Random.Range(-teleportRadius, teleportRadius);
@@ -51,4 +57,6 @@ public class Random1 : MonoBehaviour
             TeleportButton();
         }
     }
+
+   
 }
