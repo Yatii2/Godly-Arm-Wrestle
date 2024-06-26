@@ -1714,7 +1714,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 813628900}
+      - m_Target: {fileID: 1712733637}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -2803,8 +2803,8 @@ RectTransform:
   m_LocalScale: {x: 0.47063, y: 0.47063, z: 0.47063}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1242805999}
   - {fileID: 889928525}
+  - {fileID: 1242805999}
   m_Father: {fileID: 1437852572}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
