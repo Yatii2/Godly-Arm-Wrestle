@@ -59,12 +59,12 @@ public class Upgrade : MonoBehaviour
 
         void UpdateCounterText()
         {
-            counterText.text = "Strength: " + clickCount;
+            counterText.text = "" + clickCount;
         }
 
         void UpdateUpgradeText()
         {
-            upgradeText.text = "Upgrade Cost: " + upgradeCost;
+            upgradeText.text = "" + upgradeCost;
         }
     }
 
