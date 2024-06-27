@@ -31,7 +31,8 @@ public class Random1 : MonoBehaviour
             // Teleport the button to the random position
             RectTransform buttonRectTransform = teleportButton.GetComponent<RectTransform>();
             buttonRectTransform.anchoredPosition = randomPosition;
-        }
+        } 
+        
 
     }
 
